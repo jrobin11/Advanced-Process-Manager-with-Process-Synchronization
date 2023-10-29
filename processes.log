@@ -1,0 +1,45 @@
+2023-10-28 17:51:54,816 - Child process 'test' with PID 33226 created.
+2023-10-28 17:56:14,331 - Child process 'test2' with PID 33371 created.
+2023-10-28 17:56:14,339 - Child process 'test2' with PID 33371 encountered an error: [Errno 2] No such file or directory
+2023-10-28 17:58:00,653 - Child process 'test' with PID 33411 created.
+2023-10-28 17:58:22,592 - Thread 'test2' created successfully
+2023-10-28 17:58:22,592 - Thread 'test2' running
+2023-10-28 18:05:14,107 - Child process 'test' with PID 33539 created.
+2023-10-28 18:05:57,416 - Thread 'test2' created successfully
+2023-10-28 18:05:57,417 - Thread 'test2' running
+2023-10-28 19:52:15,386 - Child process 'test' with PID 34557 created.
+2023-10-28 19:52:21,795 - Thread 'test2' created successfully
+2023-10-28 19:52:21,796 - Thread 'test2' running
+2023-10-28 19:53:53,342 - Produced item: 52
+2023-10-28 20:09:00,312 - Child process 'robin' with PID 34909 created.
+2023-10-28 20:09:00,319 - Child process 'robin' with PID 34909 encountered an error: [Errno 2] No such file or directory
+2023-10-28 20:09:11,248 - Thread 'test' created successfully
+2023-10-28 20:09:11,248 - Thread 'test' running
+2023-10-28 20:09:34,101 - Child process 'robin' with PID 34919 created.
+2023-10-28 20:09:34,105 - Child process 'robin' with PID 34919 encountered an error: [Errno 2] No such file or directory
+2023-10-28 20:09:43,126 - Thread 'test' created successfully
+2023-10-28 20:09:43,126 - Thread 'test' running
+2023-10-28 20:13:14,075 - Produced item: 24
+2023-10-28 20:13:21,277 - Consumed item: 24
+2023-10-28 20:13:46,838 - Child process 'robin' with PID 35016 created.
+2023-10-28 20:13:46,841 - Child process 'robin' with PID 35016 encountered an error: [Errno 2] No such file or directory
+2023-10-28 20:13:49,811 - Thread 'test' created successfully
+2023-10-28 20:13:49,812 - Thread 'test' running
+2023-10-28 20:14:27,460 - Produced item: 10
+2023-10-28 20:14:29,577 - Consumed item: 10
+2023-10-28 20:14:58,007 - Child process 'robin' with PID 35041 created.
+2023-10-28 20:14:58,010 - Child process 'robin' with PID 35041 encountered an error: [Errno 2] No such file or directory
+2023-10-28 20:15:00,571 - Thread 'test' created successfully
+2023-10-28 20:15:00,571 - Thread 'test' running
+2023-10-28 20:18:48,909 - Child process 'robin' with PID 35156 created.
+2023-10-28 20:18:48,913 - Child process 'robin' with PID 35156 encountered an error: [Errno 2] No such file or directory
+2023-10-28 20:18:52,373 - Thread 'test' created successfully
+2023-10-28 20:18:52,373 - Thread 'test' running
+2023-10-28 20:21:44,472 - Child process 'robin' with PID 35227 created.
+2023-10-28 20:21:44,478 - Child process 'robin' with PID 35227 encountered an error: [Errno 2] No such file or directory
+2023-10-28 20:21:46,776 - Thread 'test' created successfully
+2023-10-28 20:21:46,777 - Thread 'test' running
+2023-10-28 20:56:58,782 - Child process 'robin' with PID 35869 created.
+2023-10-28 20:56:58,785 - Child process 'robin' with PID 35869 encountered an error: [Errno 2] No such file or directory
+2023-10-28 20:57:01,096 - Thread 'test' created successfully
+2023-10-28 20:57:01,097 - Thread 'test' running
