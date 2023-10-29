@@ -1,57 +1,60 @@
-# Advanced-Process-Manager-with-Process-Synchronization
-Enhanced Task Coordinator with Concurrent Operations Support
+# Advanced Process Manager with Process Synchronization
 
-Project Brief
+## Project Overview
 
-This project aims to architect and bring to life a Sophisticated Task Supervisor centered around concurrent operations. This system will empower users to spawn, oversee, and synchronize tasks in a multi-threaded context. It's designed to provide a command-line interface (or optionally a GUI) for task initiation, administration, and synchronization, leveraging system calls for the supervision of tasks and threads.
-Essential Features:
+The goal of this project is to design and implement an advanced Process Manager with an emphasis on process synchronization. This Process Manager will allow users to create, manage, and synchronize processes in a multi-threaded environment. It will provide a command-line interface for process creation, management, and synchronization, and it will use system calls for process and thread control.
 
-    Task Initiation:
-        Devise a mechanism enabling users to spawn new tasks.
-        Employ system calls, notably fork and exec, for task inception.
+## Required Functionalities
 
-    Task Administration:
-        Integrate capabilities to enumerate, conclude, and surveil active tasks.
-        Facilitate users to inspect details like Task ID, the initiating Task ID, and its current status.
+### Process Creation:
+- Implement a process creation mechanism that allows users to create new processes.
+- Use system calls (e.g., fork, exec) for process creation.
 
-    Threaded Integration:
-        Broaden the Task Supervisor to back multiple threads within a single task.
-        Facilitate mechanisms for thread initiation, conclusion, and concurrent regulation.
-        Leverage system calls like pthread_create for thread initiation and tools like mutexes and semaphores for synchronization.
+### Process Management:
+- Develop functionalities to list, terminate, and monitor running processes.
+- Allow users to view information about each process, such as its process ID (PID), parent process ID, and state.
 
-    Task-to-Task Relay (T2R):
-        Roll out mechanisms for tasks and threads to engage and relay information.
-        Investigate methods like data messaging, shared memory realms, or conduits for T2R.
-        Employ system calls, such as pipe, msgget, and shmget, to facilitate T2R operations.
+### Thread Support:
+- Extend the Process Manager to support multiple threads within a process.
+- Implement thread creation, termination, and synchronization mechanisms.
+- Use system calls for thread creation (e.g., pthread_create) and synchronization (e.g., mutexes, semaphores).
 
-    Task Synchronization:
-        Integrate concurrent control tools, notably mutexes and semaphores.
-        Showcase the application of these tools to address standard synchronization challenges (e.g., supply-demand dynamics, reader-publisher scenarios).
+### Inter-Process Communication (IPC):
+- Implement IPC mechanisms to allow processes and threads to communicate and share data.
+- Explore methods like message passing, shared memory, or pipes for IPC.
+- Use system calls for IPC operations (e.g., pipe, msgget, shmget).
 
-    User Interface (CLI/GUI):
-        Craft an intuitive interface for the Sophisticated Task Supervisor.
-        Enable users to initiate tasks, spawn threads, synchronize them, and execute T2R operations.
-        Offer lucid command structures and directives.
+### Process Synchronization:
+- Implement synchronization primitives such as mutexes and semaphores.
+- Demonstrate the use of synchronization mechanisms to solve common synchronization problems (e.g., producer-consumer, reader-writer).
 
-    Event Documentation & Analysis:
-        Embed tools to log and review the behavior of tasks and threads.
-        Chronicle crucial events, anomalies, and concurrent operation data.
+### Command-Line Interface (CLI) or Graphic User Interface (GUI):
+- Develop a user-friendly interface for interacting with the Process Manager.
+- Allow users to create processes, create threads, synchronize threads, and perform IPC operations.
+- Provide clear and informative command syntax and options.
 
-Proficiencies To Be Acquired:
+### Logging and Reporting:
+- Implement logging and reporting features to track and display the execution of processes and threads.
+- Log significant events, errors, and information related to process synchronization.
 
-Through this venture, participants will:
+## Expected Skills Gained
 
-    Master the nuances of supervising tasks and threads across varied operations.
-    Develop aptitude in utilizing system calls to modulate tasks and threads aligned with objectives.
-    Gain proficiency in crafting software that performs seamlessly, ensuring minimized resource contention.
+By working on this project, you will gain the following skills:
+- Manipulating processes and threads in various aspects.
+- Exploiting system calls to manipulate processes and threads to achieve specific goals.
+- Developing software that operates reliably while reducing conflicts in using system resources.
 
-Submission Requisites:
+## Deliverables
 
-    Codebase: The fully annotated source code, available as a Python (.py) or C (.c) file on GitHub.
-    Project Synopsis: This includes:
-        Initiative's title
-        Catalog of realized features
-        Installation and usage guidelines
-        Empirical evaluations for every feature, enriched with illustrations and narratives
-        Reflections and insights on project findings
-    GitHub Repository: The project synopsis should be represented as a README (markdown format) with the source code maintained separately.
+- **Source Code:** Provide the source code, including comments explaining the design and implementation, as a Python (.py) or C (.c) file uploaded to GitHub.
+
+- **Project Report:** Include a project report with the following:
+  - Project title
+  - List of implemented functionalities
+  - Description of how to install and use the application
+  - Test results for each functionality, accompanied by figures and explanations
+  - Discussion on the project results
+
+- **GitHub Repository Link:** The project report should be included as a README file (Markdown format, readme.md) within the GitHub repository. The source code should be loaded as a separate file.
+
+Please submit your project via a GitHub Repository link that contains the above deliverables.
